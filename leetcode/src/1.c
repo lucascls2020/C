@@ -1,7 +1,7 @@
 int *twoSum(int *nums, int numsSize, int target, int *returnSize)
 {
     int i, j;
-    int *ret = calloc(*returnSize, sizeof(int));
+    int *ret = calloc(2, sizeof(int));
     for (i = 0; i < numsSize; i++)
     {
         int key = target - nums[i];
